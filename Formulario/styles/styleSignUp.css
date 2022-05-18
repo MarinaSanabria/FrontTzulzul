@@ -1,0 +1,75 @@
+body{
+    margin:0;
+    padding: 0;
+    background: url(../multimedia/tren.jpg); 
+    background-repeat: no-repeat; /* no se repite el fondo*/
+    background-size: cover; /* se adapte al tamaño*/
+    background-position: center; 
+    background-attachment: fixed; /* que se adapte al alto y ancho*/ 
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+
+.signUp-box{
+    width: 100%;
+    max-width: 300px;
+    height: 100%;
+    max-height: auto;
+    margin: auto;
+    margin-top: 200px;
+    
+    position: relative;
+    background: rgb(240, 211, 174);
+    opacity: 0.8;
+    color: rgb(173, 173, 173);
+    
+    padding: 20px 30px;
+    border-radius: 20px;
+    text-shadow: 1px 1px 1px whitesmoke;
+    
+
+}
+
+.signUp-box h1{
+    margin: 0 0 30px 0;
+    text-align: center;
+    height: 40px;
+    border-bottom: 4px solid;
+    padding-bottom: 10px;
+    font-family: 'Koulen', cursive;
+    letter-spacing: 1px;
+    
+    
+    /* font-size: ; TAMAÑO DE LA LETRA
+        font-family: ; la letra
+    */ 
+    
+}
+
+.campos{
+    text-transform: uppercase;
+    font-weight: bold;
+    
+    
+}
+
+.redondeado{
+    border-radius: 7px;
+    width: 60%;
+    height: 30px;
+    border-color: grey;
+}
+
+.boton{
+    width: 100%;
+    height: 35px;
+    background:grey;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+
+}
