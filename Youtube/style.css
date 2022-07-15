@@ -504,3 +504,19 @@ body{
 }
 
 
+@media only screen and (min-width:415px) and (max-width:1365px){
+    .header{
+        width: 768px;
+        height: 70px;
+        padding: 0 10px;
+    } 
+
+    .titulo-logo{
+        display: none;
+    }
+
+    .footer{
+        bottom:0;
+        font-size: 20px;
+    }
+}

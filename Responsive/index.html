@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/folklore" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body class="">
+    <header class="header">
+        <div class="logo-container">
+            <img class="header-logo" src="https://cdn-icons.flaticon.com/png/512/1539/premium/1539194.png?token=exp=1657917402~hmac=c0f15f0b0e7272242b7b60098a7d7bba" alt="logo">
+            <p class="titulo-logo">Holodisc</p>
+        </div>
+
+        <div>
+            <form class= "header__search" action="">
+                <input class="header__input" type="search" placeholder="Buscar">
+                <button class="button__search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </form>
+        </div>
+
+        <script src="https://kit.fontawesome.com/fc85be8a13.js" crossorigin="anonymous"></script>
+
+        <div class="header-btn">
+            <button id="button-1" class="button-header">Iniciar Sesion</button>
+            <button id="button-2" class="button-header">Registro</button>
+        </div>
+        <div class="header-btn-responsive">
+            <button id="button-responsive-1" class="button-responsive">IS</button>
+            <button id="button-responsive-2" class="button-responsive">R</button>
+        </div>
+
+        
+    </header>
+
+    <nav class="nav-middle">
+        <div class="nav-btn">
+            <button class="btn-filtro">Star Wars</button>
+            <button class="btn-filtro">Peliculas</button>
+            <button class="btn-filtro">Series</button>
+            <button class="btn-filtro">Animacion</button>
+            <button class="btn-filtro">Live Action</button>
+            <button class="btn-filtro">Jedis</button>
+            <button class="btn-filtro">Mandalorians</button>
+        </div>
+    </nav>
+
+    <main class="main">
+        <aside class="menu-izquierda">
+            <input type="checkbox" id="check">
+            <label for="check" class="menu__hamburguesa">
+                <!-- <i class="fa-solid fa-ellipsis-vertical"></i> -->
+                <!-- <img class="btn-opciones" src="https://cdn-icons.flaticon.com/png/512/3836/premium/3836865.png?token=exp=1657914253~hmac=d2e34c021decc23de389444453acfe82"/> -->
+                <img class="btn-opciones" src="https://cdn-icons-png.flaticon.com/512/1377/1377092.png" alt="">
+
+            </label>
+            
+            <ul>
+                <li class="opciones">
+                    <img src="https://img.icons8.com/bubbles/50/000000/death-star.png"/><span>Inicio</span>
+                </li>
+                <li class="opciones">
+                    <img src="https://img.icons8.com/bubbles/50/000000/mando.png"/><span >Explorar</span>
+                </li>
+                <li class="opciones">
+                    <img src="https://img.icons8.com/bubbles/50/000000/star-wars-millenium-falcon.png"/><span>Historial</span>
+                </li>
+                <li class="opciones">
+                    <img src="https://img.icons8.com/bubbles/50/000000/princess-leia.png"/><span>Favoritos</span>
+                </li>
+                <li class="opciones">
+                    <img src="https://img.icons8.com/bubbles/50/000000/stormtrooper.png"/><span>Suscripciones</span>
+                </li>
+            </ul>
+        </aside>
+
+        <div class="video__container">
+            <section class="video__proximamente">
+              <div class="proximo">
+                    <h2 class="proximo__titulo">PROXIMAMENTE</h2>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/j5UX1Adanis" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p class="proximo__txt">Andor: estreno 31 de agosto 2022</p>
+              </div>           
+            </section>
+
+            <section class="recomendados">
+             <div id="video1" class="video-recomendado">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/aOC8E8z_ifw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+             </div>
+             <div id="video2" class="video-recomendado">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/3Yh_6_zItPU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+             </div>
+             <div id="video3" class="video-recomendado">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/rOJ1cw6mohw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+             </div>
+             <div id="video4" class="video-recomendado">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/lle0NNmvIyU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+             <div id="video5" class="video-recomendado">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/jPEYpryMp2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+             </div>
+             <div id="video6" class="video-recomendado">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/frdj1zb9sMY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+             </div>
+            </section>
+         
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <p>@2022 Reynoso Mariana; Sanabria Marina</p>
+    </footer>
+    <script src="https://kit.fontawesome.com/fc85be8a13.js" crossorigin="anonymous"></script>
+</body>
+</html>
